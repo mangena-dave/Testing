@@ -24,7 +24,7 @@ describe('Google test', function() {
     return driver.sleep(500);
   });
     return it('search for text', function() {
-      driver.quit();
+     return driver.quit();
   });
 });
 
