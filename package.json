@@ -4,7 +4,7 @@
   "description": "This github repo's for demo testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test-google.js --timeout 600000"
+    "test": "cd /home/playdave/github/Testing/test && mocha test-google.js --timeout 600000"
   },
   "repository": {
     "type": "git",
