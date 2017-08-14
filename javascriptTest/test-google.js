@@ -18,7 +18,7 @@ before(function() {
 describe('Google test', function() {
   it('search for text', function() {
     driver.findElement({id: 'lst-ib'}).clear();
-    driver.findElement({id: 'lst-ib'}).sendKeys("google");
+    driver.findElement({id: 'lst-ib'}).sendKeys("what is google");
     driver.sleep(1000);
     // driver.findElement({xpath: "//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
