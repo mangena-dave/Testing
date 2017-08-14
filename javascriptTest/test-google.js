@@ -5,7 +5,7 @@ selenium = require("selenium-webdriver");
 chai = require('chai');
 chai.use(require('chai-as-promised'));
 expect = chai.expect;
-
+//brforeClass
 before(function() {
   global.driver = new selenium.Builder().withCapabilities(selenium.Capabilities.chrome()).build();
   global.waittime = 6000;
