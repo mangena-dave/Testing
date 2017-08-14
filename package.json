@@ -4,7 +4,7 @@
   "description": "This github repo's for demo testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test-*.js --timeout 600000"
   },
   "repository": {
     "type": "git",
