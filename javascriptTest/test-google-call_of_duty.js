@@ -12,7 +12,7 @@ before("setup",function() {
   global.url = 'https://google.co.za';
   driver.getWindowHandle();
   driver.get(url);
-  return driver.sleep(100);
+  return driver.sleep(1000);
 });
 
 describe('Google test', function() {
