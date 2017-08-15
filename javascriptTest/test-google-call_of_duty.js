@@ -16,7 +16,7 @@ before(function() {
 });
 
 describe('Google test', function() {
-  it('Search for text', function() {
+  it('Search', function() {
     driver.findElement({id: 'lst-ib'}).clear();
     driver.findElement({id: 'lst-ib'}).sendKeys("call of duty 2017");
     driver.sleep(500);
