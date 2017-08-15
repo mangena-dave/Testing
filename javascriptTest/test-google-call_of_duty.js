@@ -24,7 +24,7 @@ describe('Google test', function() {
     return driver.sleep(500);
   });
   return it('Quit the browser', function() {
-    return driver.quit()
+    return driver.quit();
   });  
 });
 
