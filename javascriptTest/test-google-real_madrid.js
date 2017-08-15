@@ -12,7 +12,7 @@ before(function() {
   global.url = 'https://google.co.za';
   driver.getWindowHandle();
   driver.get(url);
-  return driver.sleep(1000);
+  return driver.sleep(100);
 });
 
 describe('Google test', function() {
@@ -23,6 +23,9 @@ describe('Google test', function() {
     driver.findElement({xpath: "//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
   });
+  return it('Quit the browser', function() {
+    return driver.quit();
+  });  
 });
 
 waitFor = function(obj, message) {
