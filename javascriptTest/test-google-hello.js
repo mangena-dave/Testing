@@ -1,5 +1,5 @@
 // mocha test-google-hello.js --timeout 600000
-//
+
 var chai, expect, selenium, waitFor;
 
 selenium = require("selenium-webdriver");
@@ -24,17 +24,17 @@ describe('Google test', function() {
     driver.findElement({xpath:"//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
   });
-<<<<<<< HEAD
 
-   it("Quit browser",function(){
+	it("Quit browser",function(){
 	driver.quit();
 
    });
-=======
+
+	
   it('Quit Browser', function() {
     return driver.quit();
   });  
->>>>>>> 42143979ba23254afd96d17e5c8b479dcac5534e
+
 });
 
 waitFor = function(obj, message) {
