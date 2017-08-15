@@ -23,12 +23,6 @@ describe('Google test', function() {
     driver.findElement({xpath:"//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
   });
-
-	it("Quit the browser",function(){
-	driver.quit();
-
-   });
-
 	
   it('Quit Browser', function() {
     return driver.quit();
