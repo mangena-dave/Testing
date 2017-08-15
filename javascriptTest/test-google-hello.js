@@ -20,9 +20,14 @@ describe('Google test', function() {
     driver.findElement({id: 'lst-ib'}).clear();
     driver.findElement({id: 'lst-ib'}).sendKeys("hello");
     driver.sleep(500);
-    driver.findElement({xpath: "//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
+    driver.findElement({xpath:"//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
   });
+
+   it("Quit browser",function(){
+	driver.quit();
+
+   });
 });
 
 waitFor = function(obj, message) {
