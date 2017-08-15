@@ -6,7 +6,7 @@ chai = require('chai');
 chai.use(require('chai-as-promised'));
 expect = chai.expect;
 
-before(function() {
+before("setup",function() {
   global.driver = new selenium.Builder().withCapabilities(selenium.Capabilities.chrome()).build();
   global.waittime = 6000;
   global.url = 'https://google.co.za';
