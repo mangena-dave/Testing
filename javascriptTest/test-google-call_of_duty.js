@@ -1,4 +1,4 @@
-// mocha test-google-call_of_duty.js --timeout 600000
+// mocha test-google-call_of_duty.js --timeout 60000
 var chai, expect, selenium, waitFor;
 
 selenium = require("selenium-webdriver");
