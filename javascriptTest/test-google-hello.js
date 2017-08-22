@@ -24,6 +24,7 @@ describe('Google test', function() {
     return driver.sleep(500);
   });
 	
+//this func quits the browser
   it('Quit Browser', function() {
     return driver.quit();
   });  
