@@ -22,6 +22,7 @@ describe('Google test', function() {
 //     driver.sleep(500);
 //     driver.findElement({xpath:"//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
 	  //
+	  //
     return driver.sleep(500);
   });
 	
