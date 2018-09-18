@@ -23,16 +23,9 @@ describe('Google test', function() {
     driver.findElement({xpath: "//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
   });
-<<<<<<< HEAD:test/test-google.js
-
- it('Quit the browser', function(){
-	driver.quit();
-   });
-=======
     return it('search for text', function() {
      return driver.quit();
   });
->>>>>>> 42143979ba23254afd96d17e5c8b479dcac5534e:javascriptTest/test-google.js
 });
 
 waitFor = function(obj, message) {
