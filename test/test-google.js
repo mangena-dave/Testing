@@ -19,7 +19,6 @@ describe('Google test', function() {
   it('Search for text', function() {
     driver.findElement({id: 'lst-ib'}).clear();
     driver.findElement({id: 'lst-ib'}).sendKeys("google");
-    driver.sleep(500);
     driver.findElement({xpath: "//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
     return driver.sleep(500);
   });
