@@ -1,4 +1,4 @@
-// mocha test-google.js --timeout 600000
+// mocha test-google.js --timeout 6000000
 var chai, expect, selenium, waitFor;
 
 selenium = require("selenium-webdriver");
