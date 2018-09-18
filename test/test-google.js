@@ -16,7 +16,7 @@ before(function() {
 });
 
 describe('Google test', function() {
-  it('search for text', function() {
+  it('Search for text', function() {
     driver.findElement({id: 'lst-ib'}).clear();
     driver.findElement({id: 'lst-ib'}).sendKeys("google");
     driver.sleep(500);
