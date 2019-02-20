@@ -20,7 +20,7 @@ describe('Google test', function() {
     driver.findElement({id: 'lst-ib'}).clear();
     driver.findElement({id: 'lst-ib'}).sendKeys("google");
     driver.findElement({xpath: "//div[@id='sbse0']/div[@class='sbqs_c']"}).click();
-    return driver.sleep(500);
+    return driver.sleep(1500);
   });
     return it('search for text', function() {
      return driver.quit();
